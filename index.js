@@ -51,7 +51,7 @@ app.use("*", (req, res) => {
 });
 
 
-const server = app.listen(5000, () => {
+const server = app.listen(process.env.PORT, () => {
     let host = server.address().address;
 
     let port = server.address.port;
