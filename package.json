@@ -1,0 +1,11 @@
+{
+  "name": "currencyrates",
+  "version": "1.0.0",
+  "description": "This is a currency rates end point.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Steven Omole-Adebomi",
+  "license": "ISC"
+}
