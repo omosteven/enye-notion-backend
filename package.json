@@ -1,11 +1,19 @@
 {
-  "name": "currencyrates",
-  "version": "1.0.0",
-  "description": "This is a currency rates end point.",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm run test"
-  },
-  "author": "Steven Omole-Adebomi",
-  "license": "ISC"
+    "name": "currencyrates",
+    "version": "1.0.0",
+    "description": "This is a currency rates end point.",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test",
+        "start": "node index.js"
+    },
+    "author": "Steven Omole-Adebomi",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "validator": "^13.5.2"
+    }
 }
