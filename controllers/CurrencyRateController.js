@@ -73,7 +73,7 @@ class CurrencyRateController { /**
                             }
                         },
 
-                        message: "An error occurred."
+                        message: "An error occurred. Either the base or currency could not the found or there is an error somewhere else."
 
 
                     });
